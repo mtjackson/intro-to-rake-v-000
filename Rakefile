@@ -11,4 +11,5 @@ namespace :greeting do
 end
 
 namespace :db
-  desc
+  desc ''
+  task
