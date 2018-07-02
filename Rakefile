@@ -16,7 +16,7 @@ namespace :db
     Student.create_table
   end
 
-  desc ''
-  task :seed do
-  end
+#  desc ''
+#  task :seed do
+#  end
 end
