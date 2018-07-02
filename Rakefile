@@ -11,10 +11,11 @@ namespace :greeting do
 end
 
 namespace :db
-  desc ''
-  task :migrate do
+  desc 'migrate changes to your database'
+  task :migrate => :environment do
   end
 
   desc ''
-  task :seed do 
+  task :seed do
   end
+end
