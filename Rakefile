@@ -12,4 +12,4 @@ end
 
 namespace :db
   desc ''
-  task
+  task :migrate do
